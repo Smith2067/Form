@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Comfortaa', Arial;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+#marg{
+    padding: 5px;
+    margin: 0px;
+    background: radial-gradient(rgb(62, 62, 62),rgb(49, 49, 49),rgb(62, 62, 62));
+}
+header{
+    text-align: center;
+    font-size: 75px;
+    padding: 10px;
+    background: linear-gradient(45deg,rgb(0, 191, 255),rgb(0, 240, 148),rgb(0, 191, 255));
+    -webkit-text-stroke: 1.5px rgb(225, 128, 30);
+}
+nav{
+    font-family: 'Comfortaa', Arial;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 30px;
+    width: 90%;
+    margin-left:4.5%;
+}
+form{
+    font-family: 'Comfortaa', Arial;
+    margin-top: 25px;
+    font-size: 20px;
+    width: 800px;
+    margin-left: 350px;
+}
+#legmain{
+    font-family: 'Comfortaa', Arial;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+#legsub{
+    font-family: 'Comfortaa', Arial;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+hr{
+    border: solid white;
+    border-radius: 10px;
+}
+legend{
+    font-family: 'Comfortaa', Arial;
+    font-size: 30px;
+}
+label{
+    font-family: 'Comfortaa', Arial;
+    font-size: 15px;
+}
+.img{
+    position: absolute;
+    top: 0;
+    margin-left: 300px;
+}
+#select{
+    font-family: 'Comfortaa', Arial;
+}
+input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
+    border-color: rgb(37, 37, 37);
+    border: solid;
+    border-radius: 10px;
+}
+.menu{
+    font-size: 20px;
+    font-family: 'Comfortaa', Arial;
+    color: white;
+    text-align: center;
+    background-color: rgb(225, 128, 30);
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    border: solid white;
+    
+}
+button:hover{
+    background-color: rgb(255, 190, 65);
+}
+#mit{
+    font-family: 'Comfortaa', Arial;
+    padding: 5px;
+    margin-top: 5px;
+}
+#reset{
+    font-family: 'Comfortaa', Arial;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+input[type=reset]:hover{
+    color: rgb(225, 128, 30);
+}
+input[type=submit]:hover{
+    color: rgb(225, 128, 30);
+}
+::-webkit-scrollbar {
+    color: red;
+}
+:-webkit-scrollbar-track {
+    background-color: rgb(225, 128, 30);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(225, 128, 30);
+    border-radius: 15px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 190, 65);
+  }
+input[type=range]{
+-webkit-appearance: none;
+/*background: rgb(255, 140, 0);*/
+}
+input[type='range']::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 15px;
+    background: rgb(37, 37, 37);
+    border-radius: 15px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: rgb(255, 255, 255);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-top: 2.5px;
+}
+#age{
+    font-family: 'Comfortaa',Arial;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#fname{
+    font-family: 'Comfortaa',Arial;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#lname{
+    font-family: 'Comfortaa',Arial;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#eadd{
+    font-family: 'Comfortaa',Arial;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#phnum{
+    font-family: 'Comfortaa',Arial;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#select{
+    background-color: rgb(37,37,37);
+    color: white;
+    border-color: white;
+}
+/*input[type=radio]{
+    background-color: rgb(37,37,37);
+    border-color: white;
+}*/
