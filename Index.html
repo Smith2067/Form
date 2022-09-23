@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+<header>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace; Everything Oranges</header>
+<div class="img">
+<img src="image.png" alt="Everything Oranges Logo" height="100px" width="120px">
+</div>
+<div id="marg">
+<nav>
+    <button class="menu">Home</button>
+    <button class="menu">Shop</button>
+    <button class="menu">About</button>
+    <button class="menu">Contact</dbuttoniv>
+</nav>
+<form>
+    <input type ="reset" id="reset" value="Reset">
+    <fieldset id="legmain">
+        <legend>Customer Satisfaction Survey</legend>
+
+        <br>Optional Information <hr>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname">
+        <br><br>
+
+        <label for="age">Date of Birth</label>
+        <input type="date" id="age">
+        <br><br>
+
+        <label for="eadd">Email Address</label>
+        <input type="email" id="eadd">
+        <br>
+        <label for="phnum">Phone Number</label>
+        <input type="tel" id="phnum">
+        <br><br>
+        <label for="Gender">Gender</label><br>
+        <input type="radio" id="Gender" value="Female">
+        <label for ="Female">Female</label>
+        <br>
+        <input type="radio" id="Gender" value="Male">
+        <label for ="Male">Male</label>
+        <br>
+        <input type="radio" id="Gender" value="Other">
+        <label for ="Other">Other</label>
+        <br><br>
+        <fieldset id="legsub">
+        <label>What promotions would you like to recieve from us? (leave blank for none)</label>
+        <br>
+        <input type="checkbox" id="only" value="only">
+        <label for ="only">All "Everything Orange" related promotions.</label>
+        <br>
+        <input type="checkbox" id="perfume" value="perfume">
+        <label for ="only">Orange perfume "Everything Oranges" related promotions.</label>
+        <br>
+        <input type="checkbox" id="lotion" value="lotion">
+        <label for ="only">Orange lotion "Everything Oranges" related promotions.</label>
+        <br>
+        <input type="checkbox" id="lotion" value="lotion">
+        <label for ="only">Orange shampoo & conditioner "Everything Oranges" related promotions.</label>
+        <br>
+        </fieldset>
+        <br>
+        <br>Survey <hr>
+        <label for ="select">What location do you go to?</label>
+        <br><select id="select">
+            <option> </option>
+            <option>Pheonix, AZ</option>
+            <option>Houston, TX</option>
+            <option>Jacksonville, FL</option>
+            <option>Fresno, CA</option>
+            <option>I shop online and have products shipped to me.</option>
+        </select>
+        <br><br>
+        <label for ="range">What is your experience at your location?</label><br>
+        <label for ="range">Poor</label>
+        <input type="range" id="range" value="range">
+        <label for ="range">Good</label>
+        <br><br>
+        <label for ="range1">How often do you shop with us?</label><br>
+        <label for ="range1">Not very often.</label>
+        <input type="range" id="range1" value="range1">
+        <label for ="range1">Very often.</label>
+        <br><br>
+        <label for ="range2">What is your experience with our products?</label><br>
+        <label for ="range2">Poor</label>
+        <input type="range" id="range2" value="range2">
+        <label for ="range2">Good</label>
+    </fieldset>
+    <input type ="Submit" id="mit" value="Submit">
+</form>
+
+</div>
+</body>
+</html>
