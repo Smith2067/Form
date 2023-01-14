@@ -6,6 +6,7 @@
     <title>Survey</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://kit.fontawesome.com/76c27e812d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace; Everything Oranges</header>
@@ -27,10 +28,10 @@
         <br>Optional Information <hr>
 
         <label for="fname">First Name</label>
-        <input type="text" id="fname">
+        <input type="text" id="fname" pattern="[a-zA-Z]{1,747}" >
         <br>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname">
+        <input type="text" id="lname" pattern="[a-zA-Z]{1,747}" >
         <br><br>
 
         <label for="age">Date of Birth</label>
@@ -41,17 +42,22 @@
         <input type="email" id="eadd">
         <br>
         <label for="phnum">Phone Number</label>
-        <input type="tel" id="phnum">
+        <input type="tel" id="phnum" pattern="[0-9]{9,15}">
         <br><br>
         <label for="Gender">Gender</label><br>
-        <input type="radio" id="Gender" value="Female">
+        <input type="radio" id="Gender" value="Female" var="f" name="Gender">
         <label for ="Female">Female</label>
         <br>
-        <input type="radio" id="Gender" value="Male">
+        <input type="radio" id="Gender" value="Male" var="m" name="Gender">
         <label for ="Male">Male</label>
         <br>
-        <input type="radio" id="Gender" value="Other">
+        <input type="radio" id="Gender" value="Other" name="Gender">
         <label for ="Other">Other</label>
+        <br><br>
+        <label for="td">What is today's date? (At the end, press a for AM, or p for PM)</label>
+        <br>
+        <input type="datetime-local" id="td" name="td">
+
         <br><br>
         <fieldset id="legsub">
         <label>What promotions would you like to recieve from us? (leave blank for none)</label>
@@ -72,7 +78,7 @@
         <br>
         <br>Survey <hr>
         <label for ="select">What location do you go to?</label>
-        <br><select id="select">
+        <br><select id="select" required>
             <option> </option>
             <option>Pheonix, AZ</option>
             <option>Houston, TX</option>
@@ -95,10 +101,32 @@
         <label for ="range2">Poor</label>
         <input type="range" id="range2" value="range2">
         <label for ="range2">Good</label>
+        <br><br>
+        <label for="text">Any other suggestions?</label><br>
+        <textarea name="text" pattern="{0,800}">Type Here</textarea>
+        <br><br>
+        <label for="pass">Are you a robot?  If not what is the name of the color is in our brand name? (all lowercase)</label><br>
+        <input type="password" name="pass" pattern="[o][r][a][n][g][e]" required>
+
+
+
+
     </fieldset>
     <input type ="Submit" id="mit" value="Submit">
 </form>
 
 </div>
+<footer>
+    <i class="fa-brands fa-instagram fa-2xl"></i>
+    <i class="fa-brands fa-twitter fa-2xl"></i>
+    <i class="fa-brands fa-facebook fa-2xl"></i>
+    <br><br>
+    <div>
+    <img class ="amg" src="image.png" alt="Everything Oranges Logo" height="50px" width="60px">
+    <div class="logo">
+        Everything Oranges</div>
+    </div>
+    <br>
+</footer>
 </body>
 </html>
