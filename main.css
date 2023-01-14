@@ -113,7 +113,7 @@ input[type=submit]:hover{
     color: rgb(225, 128, 30);
 }
 ::-webkit-scrollbar {
-    color: red;
+    width: 15px;
 }
 :-webkit-scrollbar-track {
     background-color: rgb(225, 128, 30);
@@ -176,7 +176,41 @@ input[type='range']::-webkit-slider-thumb {
     color: white;
     border-color: white;
 }
-/*input[type=radio]{
+footer{
     background-color: rgb(37,37,37);
-    border-color: white;
-}*/
+    height: 100px;
+}
+i{
+margin-left: 20px;
+margin-top: 40px;
+}
+.amg{
+    margin-left: 10px;
+}
+.logo{
+    font-size: 25px;
+    -webkit-text-stroke: .6px rgb(225, 128, 30);
+    color: white;
+    margin-left:15px;
+}
+#td{
+    font-family: 'Comfortaa', Arial;
+}
+textarea{
+font-family: 'Comfortaa', Arial;
+color: white;
+background-color: rgb(37,37,37);
+width: 300px;
+height: 100px;
+resize: none;
+border: solid white 1.5px;
+border-radius: 30px;
+padding: 10px;
+}
+textarea::-webkit-scrollbar{
+height: 2px;
+width: 5px;
+}
+textarea::-webkit-scrollbar-thumb{
+height: 3px;
+}
